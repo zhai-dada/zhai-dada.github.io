@@ -1245,7 +1245,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #a76b96;
+  background: #b145d2;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -2629,35 +2629,4 @@ hr {
   font-family: 'monaco';
   src: url("/fonts/monaco.woff2") format("woff2");
   font-display: swap;
-}
-body {
-  font-family: 'monaco';
-}
-.post-body {
-  font-family: 'monaco';
-}
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-.post-title,
-.post-title a,
-.post-header,
-.post-body h1,
-.post-body h2,
-.post-body h3,
-.post-body h4,
-.post-body h5,
-.post-body h6 {
-  font-family: 'monaco';
-}
-.post-title,
-.post-meta,
-.post-meta span,
-.post-meta time,
-.post-header,
-.post-header span {
-  font-family: 'monaco';
 }
