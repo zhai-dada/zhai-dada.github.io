@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>测试 on Stupid Place</title>
+    <link>http://localhost:1313/tags/%E6%B5%8B%E8%AF%95/</link>
+    <description>Recent content in 测试 on Stupid Place</description>
+    <image>
+      <title>Stupid Place</title>
+      <url>http://localhost:1313/images/logo.jpg</url>
+      <link>http://localhost:1313/images/logo.jpg</link>
+    </image>
+    <generator>Hugo</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Thu, 10 Sep 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/%E6%B5%8B%E8%AF%95/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>测试</title>
+      <link>http://localhost:1313/notes/my-first-note/</link>
+      <pubDate>Thu, 10 Sep 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/notes/my-first-note/</guid>
+      <description>这是我的第一篇测试笔记</description>
+    </item>
+  </channel>
+</rss>
