@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Kernel on Stupid Place</title>
+    <link>https://zhai-dada.github.io/series/kernel/</link>
+    <description>Recent content in Kernel on Stupid Place</description>
+    <image>
+      <title>Stupid Place</title>
+      <url>https://zhai-dada.github.io/images/logo.jpg</url>
+      <link>https://zhai-dada.github.io/images/logo.jpg</link>
+    </image>
+    <generator>Hugo</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Tue, 22 Sep 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://zhai-dada.github.io/series/kernel/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>内核学习001：内核编译</title>
+      <link>https://zhai-dada.github.io/notes/kernel/%E5%86%85%E6%A0%B8%E5%AD%A6%E4%B9%A0001-%E5%86%85%E6%A0%B8%E7%BC%96%E8%AF%91/</link>
+      <pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate>
+      <guid>https://zhai-dada.github.io/notes/kernel/%E5%86%85%E6%A0%B8%E5%AD%A6%E4%B9%A0001-%E5%86%85%E6%A0%B8%E7%BC%96%E8%AF%91/</guid>
+      <description>&lt;h2 id=&#34;1-获取linux源码&#34;&gt;1. 获取Linux源码&lt;/h2&gt;
+&lt;p&gt;获取内核源码有很多种方式，例如：可以选择从&lt;a href=&#34;www.kernel.org&#34;&gt;www.kernel.org&lt;/a&gt;获取代码、选择从linus的github仓库获取代码、从开发板厂商处获取针对板卡适配过的源码。&lt;/p&gt;
+&lt;p&gt;因为我使用的是qemu虚拟机的方式并且为了方便查看log等信息，就直接从linus的仓库pull来源码。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
