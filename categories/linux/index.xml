@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Linux on Stupid Place</title>
+    <link>https://zhai-dada.github.io/categories/linux/</link>
+    <description>Recent content in Linux on Stupid Place</description>
+    <image>
+      <title>Stupid Place</title>
+      <url>https://zhai-dada.github.io/images/logo.jpg</url>
+      <link>https://zhai-dada.github.io/images/logo.jpg</link>
+    </image>
+    <generator>Hugo</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Wed, 23 Sep 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://zhai-dada.github.io/categories/linux/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>内核学习002：debootstrap 构建文件系统</title>
+      <link>https://zhai-dada.github.io/notes/kernel/%E5%86%85%E6%A0%B8%E5%AD%A6%E4%B9%A0002-debootstrap%E6%9E%84%E5%BB%BA%E6%96%87%E4%BB%B6%E7%B3%BB%E7%BB%9F/</link>
+      <pubDate>Wed, 23 Sep 2026 00:00:00 +0000</pubDate>
+      <guid>https://zhai-dada.github.io/notes/kernel/%E5%86%85%E6%A0%B8%E5%AD%A6%E4%B9%A0002-debootstrap%E6%9E%84%E5%BB%BA%E6%96%87%E4%BB%B6%E7%B3%BB%E7%BB%9F/</guid>
+      <description>&lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;
+&lt;p&gt;debootstrap 是 debian/ubuntu 下的一个工具，用来构建一套基本的系统(根文件系统)。比正常发行版的体积小的很多，但是比自己 busybox 搭的功能更全，比 buildroot 更快，并且因为是基于发行版的，所以几乎没有各种奇怪的依赖问题很适合进行嵌入式文件系统的制作。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>疑难杂症001：开启 KDB 之后内核模块与内核不匹配导致的崩溃</title>
+      <link>https://zhai-dada.github.io/notes/bug/%E7%96%91%E9%9A%BE%E6%9D%82%E7%97%87001-%E5%BC%80%E5%90%AF-kdb-%E4%B9%8B%E5%90%8E%E5%86%85%E6%A0%B8%E6%A8%A1%E5%9D%97%E4%B8%8E%E5%86%85%E6%A0%B8%E4%B8%8D%E5%8C%B9%E9%85%8D%E5%AF%BC%E8%87%B4%E7%9A%84%E5%B4%A9%E6%BA%83./</link>
+      <pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate>
+      <guid>https://zhai-dada.github.io/notes/bug/%E7%96%91%E9%9A%BE%E6%9D%82%E7%97%87001-%E5%BC%80%E5%90%AF-kdb-%E4%B9%8B%E5%90%8E%E5%86%85%E6%A0%B8%E6%A8%A1%E5%9D%97%E4%B8%8E%E5%86%85%E6%A0%B8%E4%B8%8D%E5%8C%B9%E9%85%8D%E5%AF%BC%E8%87%B4%E7%9A%84%E5%B4%A9%E6%BA%83./</guid>
+      <description>&lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;
+&lt;p&gt;今天想要学习一下 KDB / KGDB 进行内核调试，于是在内核中开启了 KDB / KGDB 相关的内核选项然后重编内核替换到了板子中，重启之后系统报错触发！&lt;/p&gt;
+&lt;h2 id=&#34;排查过程&#34;&gt;排查过程&lt;/h2&gt;
+&lt;h3 id=&#34;1分析当前报错信息&#34;&gt;1.分析当前报错信息&lt;/h3&gt;
+&lt;p&gt;分析当前报错信息什么都没看出来，配合kdb的ps bt等指令，只是确定是 insmod 加载驱动的时候报错的。进程是启动时自动启动的内核加载的脚本。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

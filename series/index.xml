@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>系列 on Stupid Place</title>
+    <link>https://zhai-dada.github.io/series/</link>
+    <description>Recent content in 系列 on Stupid Place</description>
+    <image>
+      <title>Stupid Place</title>
+      <url>https://zhai-dada.github.io/images/logo.jpg</url>
+      <link>https://zhai-dada.github.io/images/logo.jpg</link>
+    </image>
+    <generator>Hugo</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Wed, 23 Sep 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://zhai-dada.github.io/series/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Rootfs</title>
+      <link>https://zhai-dada.github.io/series/rootfs/</link>
+      <pubDate>Wed, 23 Sep 2026 00:00:00 +0000</pubDate>
+      <guid>https://zhai-dada.github.io/series/rootfs/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Kernel</title>
+      <link>https://zhai-dada.github.io/series/kernel/</link>
+      <pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate>
+      <guid>https://zhai-dada.github.io/series/kernel/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Bug</title>
+      <link>https://zhai-dada.github.io/series/bug/</link>
+      <pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate>
+      <guid>https://zhai-dada.github.io/series/bug/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>
