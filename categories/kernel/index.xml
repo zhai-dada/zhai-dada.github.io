@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Kernel on Stupid Place</title>
+    <link>https://zhai-dada.github.io/categories/kernel/</link>
+    <description>Recent content in Kernel on Stupid Place</description>
+    <image>
+      <title>Stupid Place</title>
+      <url>https://zhai-dada.github.io/images/logo.jpg</url>
+      <link>https://zhai-dada.github.io/images/logo.jpg</link>
+    </image>
+    <generator>Hugo</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Tue, 22 Sep 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://zhai-dada.github.io/categories/kernel/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>内核学习001：内核编译</title>
+      <link>https://zhai-dada.github.io/notes/kernel/%E5%86%85%E6%A0%B8%E5%AD%A6%E4%B9%A0001-%E5%86%85%E6%A0%B8%E7%BC%96%E8%AF%91/</link>
+      <pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate>
+      <guid>https://zhai-dada.github.io/notes/kernel/%E5%86%85%E6%A0%B8%E5%AD%A6%E4%B9%A0001-%E5%86%85%E6%A0%B8%E7%BC%96%E8%AF%91/</guid>
+      <description>&lt;h2 id=&#34;1-获取linux源码&#34;&gt;1. 获取Linux源码&lt;/h2&gt;
+&lt;p&gt;获取内核源码有很多种方式，例如：可以选择从&lt;a href=&#34;www.kernel.org&#34;&gt;www.kernel.org&lt;/a&gt;获取代码、选择从linus的github仓库获取代码、从开发板厂商处获取针对板卡适配过的源码。&lt;/p&gt;
+&lt;p&gt;因为我使用的是qemu虚拟机的方式并且为了方便查看log等信息，就直接从linus的仓库pull来源码。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>疑难杂症001：开启 KDB 之后内核模块与内核不匹配导致的崩溃</title>
+      <link>https://zhai-dada.github.io/notes/bug/%E7%96%91%E9%9A%BE%E6%9D%82%E7%97%87001-%E5%BC%80%E5%90%AF-kdb-%E4%B9%8B%E5%90%8E%E5%86%85%E6%A0%B8%E6%A8%A1%E5%9D%97%E4%B8%8E%E5%86%85%E6%A0%B8%E4%B8%8D%E5%8C%B9%E9%85%8D%E5%AF%BC%E8%87%B4%E7%9A%84%E5%B4%A9%E6%BA%83./</link>
+      <pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate>
+      <guid>https://zhai-dada.github.io/notes/bug/%E7%96%91%E9%9A%BE%E6%9D%82%E7%97%87001-%E5%BC%80%E5%90%AF-kdb-%E4%B9%8B%E5%90%8E%E5%86%85%E6%A0%B8%E6%A8%A1%E5%9D%97%E4%B8%8E%E5%86%85%E6%A0%B8%E4%B8%8D%E5%8C%B9%E9%85%8D%E5%AF%BC%E8%87%B4%E7%9A%84%E5%B4%A9%E6%BA%83./</guid>
+      <description>&lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;
+&lt;p&gt;今天想要学习一下 KDB / KGDB 进行内核调试，于是在内核中开启了 KDB / KGDB 相关的内核选项然后重编内核替换到了板子中，重启之后系统报错触发！&lt;/p&gt;
+&lt;h2 id=&#34;排查过程&#34;&gt;排查过程&lt;/h2&gt;
+&lt;h3 id=&#34;1分析当前报错信息&#34;&gt;1.分析当前报错信息&lt;/h3&gt;
+&lt;p&gt;分析当前报错信息什么都没看出来，配合kdb的ps bt等指令，只是确定是 insmod 加载驱动的时候报错的。进程是启动时自动启动的内核加载的脚本。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
